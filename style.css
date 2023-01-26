@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#ba{
+    height: 10vh;
+    display: flex;
+    background-color: seashell;
+}
+#ba .h{
+    background-color: #10123e;
+    width: 100%;
+    height: 66px;
+    display: flex;
+}
+#ba .h h1{
+    color: aqua;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 12px;
+}
+#ba .h h1 span{
+    color: #ec0c54;
+}
+#ba .h .nv{
+    margin: 5px auto 0;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+#ba .h .nv a{
+    color: #fff;
+    text-decoration: none;
+    margin:  1px;
+    padding: 1px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    border: .5px solid #10123e;
+    z-index: 1;
+    transition: 0.6s;
+    top: 1;
+    left: 1;
+}
+#ba .h .nv a span{
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    background-color: #10123e;
+    position: absolute;
+    z-index: -1;
+    transition: 0.6s;
+    top: 0;
+    left: 0;
+}
+#ba .h .nv a:hover{
+    color: #ec0c54;
+}
+#ba .h .nv a:hover span{
+    width: 100%;
+}
+#sba{
+    height: 10vh;
+    background-color: seashell;
+    display: flex;
+}
+#sba .n{
+    background-color: #16244f;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+#sba .n h2{
+    color: #fff;
+    margin: 12px;
+}
+#tba{
+    height: 10vh;
+    display: flex;
+    background-color: seashell;
+}
+#tba .pg{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+}
+#tba .pg h3{
+    margin: 12px;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#fba{
+    height: 70vh;
+    background-color: #fff;
+}
+#fba .pe{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+}
+#fba .pe p{
+    border: .5px solid #000;
+    height: 110px;
+    width: 70%;
+    text-align: center;
+    padding: 12px;
+    margin: 15px;
+    font-size: 19px;
+    font-style: italic;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #ffffff,5px 5px 12px;
+}
+#fba .pe p span a{
+    color: #2649b2;
+    text-decoration: none;
+}
+#fba .pe p span a:hover{
+    color: #ec0c54;
+}
